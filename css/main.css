@@ -52,27 +52,8 @@ hr{
     font-size: 3.3rem;
     color: #f8f3eb;
 }
-
- /* mobile site homepage */
-@media(max-width: 450px){
-    .home .row{
-        padding: 15% 0% 10%;
-       }
-       .greeting{
-        color: #00ffb3;
-        padding-top: 8%;
-        font-size: 2.0rem;
-        font-weight: 400;
-    }
-    .name{
-        font-weight:500;
-        font-size: 2.0rem;
-        color: #f8f3eb;
-    }
-}
-
 .title-tag{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: #f8f3eb;
     font-weight: 400;
     padding-bottom:30px;
@@ -90,6 +71,33 @@ hr{
 }
 .fab:hover{
     color: #00ffb3;
+}
+
+
+
+ /* mobile site homepage */
+@media(max-width: 450px){
+    .home .row{
+        padding: 15% 0% 10%;
+       }
+       .greeting{
+        color: #00ffb3;
+        padding-top: 8%;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .name{
+        font-weight:500;
+        font-size: 2.0rem;
+        color: #f8f3eb;
+    }
+    .title-tag{
+        font-size: 1rem;
+        color: #f8f3eb;
+        font-weight: 400;
+        padding-bottom:30px;
+    }
+
 }
 
 
