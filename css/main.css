@@ -24,7 +24,7 @@ hr{
 .navbar-custom .navbar-nav .nav-link:hover {
     color: #00ffb3;
 }
-.custom-toggler{
+.fas{
     color: #00ffb3;
 }
 
@@ -63,13 +63,13 @@ hr{
 .socialmedia{
     padding-left: 5%;
 }
-.fab{
+#Home .fab{
     font-size: 2.0rem;
     padding: 10px;
     background-color:black;
     color: #f8f3eb;
 }
-.fab:hover{
+#Home .fab:hover{
     color: #00ffb3;
 }
 
@@ -104,7 +104,7 @@ hr{
                      /* About */
 .About{
     padding-top: 50px;
-    margin: 1% 0 5%;
+    margin: 1% 0 0%;
 }
 .About .row{
 margin: 0 15%;
@@ -122,4 +122,22 @@ margin: 0 15%;
         margin: 0 8%;
         }
 } 
-
+/* projects */
+#projects{
+margin: 3% 13%;
+}
+#projects .row .card{
+    text-align: center;
+    margin: 5px;
+}
+.card-text{
+    font-size: 18px;
+}
+#projects h1{
+    text-align: center;
+    padding: 30px;
+}
+#projects .row .card .card-text .btn , .fab{
+color: black;
+font-size: 20px;
+}
