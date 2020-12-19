@@ -34,6 +34,12 @@ hr{
 .home{
     background-color: black;
 }
+@media(max-width:450px){
+    .home {
+       padding-bottom: 120px;
+    }
+
+}
 .img-home{
     width: 100%
 
