@@ -54,7 +54,7 @@ function submitForm(e){
  var email = getInputVal('email');
  var message = getInputVal('message');
 
- saveMessage(name,  email,  message);
+ saveMessage(name,email,message);
 // Show alert
 document.querySelector('.alert').style.display = 'block';
   
@@ -72,7 +72,6 @@ function getInputVal(id){
   return document.getElementById(id).value;
 }
 
-saveMessage(name, email, message);
 function saveMessage(name, email, message){
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
