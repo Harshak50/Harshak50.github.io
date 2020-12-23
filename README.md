@@ -1,1 +1,1 @@
-https://www.harshak.me/Portfolio_2.0/
+https://www.harshak.me
