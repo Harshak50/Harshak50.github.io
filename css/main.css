@@ -31,7 +31,8 @@ h4{
     color: #00ffb3;
 }
 .heading{
-    color:#424874;
+    text-align: center;
+    padding: 30px;
 }
 
 
@@ -133,6 +134,42 @@ margin: 0 15%;
         margin: 0 8%;
         }
 } 
+/* Skills */
+#skills .container-fluid{
+max-width: 700px;
+padding-left: 5%;
+}
+#skills .fab{
+    font-size:4rem;
+    padding: 5px 20px;
+}
+@media(max-width:1200px){
+    #skills .container-fluid{
+        max-width: 700px;
+        padding-left: 9%;
+        }
+}
+@media(max-width:600px){
+    #skills .container-fluid{
+        max-width: 700px;
+        padding-left: 15%;
+        }
+    #skills .fab{
+        font-size:3rem;
+        padding: 5px 10px;
+    }
+}
+@media(max-width:450px){
+    #skills .container-fluid{
+        max-width: 700px;
+        padding-left: 5%;
+        }
+    #skills .fab{
+        font-size:2.5rem;
+        padding: 5px 10px;
+    }
+}
+
 /* projects */
 #projects{
 margin: 3% 13%;
@@ -144,9 +181,9 @@ margin: 3% 13%;
 .card-text{
     font-size: 18px;
 }
-#projects h1{
+#projects h2{
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 #projects .row .card .card-text .btn , .fab{
 color: black;
