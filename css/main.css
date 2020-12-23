@@ -6,11 +6,14 @@ html,body{
 }
 p{  text-align: center;
     font-size: 1.4rem;
-    color: gray;
+    color:#456268;
 }
 hr{
     width: 40%;
     justify-content: center;    
+}
+h4{
+    text-align: center;
 }
 .navbar{
     background-color: black;
@@ -27,7 +30,9 @@ hr{
 .fas{
     color: #00ffb3;
 }
-
+.heading{
+    color:#424874;
+}
 
 
      /* home section */
@@ -150,6 +155,67 @@ font-size: 20px;
 @media(max-width:450px){
     #projects{
         margin: 15px 0px;
-        }
-    
+        } 
+}    
+     
+#projects .btn:hover{
+background-color: #00ffb3;
 }
+#projects a{
+    font-size: 15px;
+    text-decoration: none;
+}
+#projects a:hover{
+    color: black;
+}
+
+
+
+
+/* Contact */
+#contact{
+    margin: 7% 25%;
+}
+#contact .row img{
+width: 100%;
+padding: 30px;
+}
+#contact h4{
+    margin: 30px;
+    color: #222831;
+}
+form{
+    margin: 20% 2%;
+}
+form input,textarea{
+width: 90%;  
+margin-bottom: 10px;
+border-top: 0;
+border-right:0;
+border-left: 0;
+
+}
+ form .btn{
+background-color: #32e0c4;
+margin: 10px auto;
+ }
+ @media(max-width:600px){
+    #contact{
+        margin: 7% 10%;
+    }
+    #contact .row img{
+        padding: 0;
+        width: 80%;
+    }
+    
+ }
+ .alert{
+    text-align: center;
+    padding:10px;
+    background:#79c897;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+    }
+    
+
